@@ -9,7 +9,6 @@ const ContainerType = (props) => {
     const router = useRouter();
 
     const baseUrl = "https://cdn.jwplayer.com";
-    //const playlistEndpoint = "/v2/playlists/xQaFzykq"
     const playlistEndpoint = `/v2/playlists/${uiDesign.playlistId}`
 
 
@@ -54,7 +53,6 @@ const ContainerType = (props) => {
                         <Carousel>
                             {data?.playlist.map((slide) => {
                                 return (
-                                    <div key={slide.id}>
                                         <Carousel.Item>
                                             <img
                                                 className="d-block w-100"
@@ -67,7 +65,6 @@ const ContainerType = (props) => {
                                             </Carousel.Caption>
                                         </Carousel.Item>
 
-                                    </div>
                                 )
                             })}
 
