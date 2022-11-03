@@ -1,0 +1,28 @@
+{
+  "name": "jwplayer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@netlify/plugin-nextjs": "^4.28.4",
+    "axios": "^1.1.3",
+    "bootstrap": "^5.2.2",
+    "next": "13.0.0",
+    "next-on-netlify": "^3.0.1",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "18.2.0",
+    "react-jw-player": "^1.19.1",
+    "react-player": "^2.11.0",
+    "video-player": "0.0.1"
+  },
+  "devDependencies": {
+    "eslint": "8.26.0",
+    "eslint-config-next": "13.0.0"
+  }
+}
